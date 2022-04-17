@@ -1,17 +1,17 @@
 //add project on top for latest
-import resume from '../images/projectsicon/screenshotofresumeforportfolio.png';
+import resume from '../images/projectsicon/newportimg.png';
 import barkr from '../images/projectsicon/barkr.png';
-import flasher from '../images/projectsicon/Flasherapp.png';
-import techblog from '../images/projectsicon/dashboardtechblog.png';
-import passwordgen from '../images/projectsicon/passwordgeneratorimg.png';
-import notetaker from '../images/projectsicon/notetaker.png'
+import flasher from '../images/projectsicon/actualflasherimg.png';
+import techblog from '../images/projectsicon/actualtechblogimg.png';
+import passwordgen from '../images/projectsicon/actualpasswordimg.png';
+import notetaker from '../images/projectsicon/actualnotetakerimg.png'
 
 //add project on top for latest
 
 const portfolioData = [
   {
     image:  resume,
-    link: 'https://drive.google.com/file/d/15djAzoLMbzHks9KH0yzn3FNW2VvnRTk-/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1GsUKT2CU0ShMM6eVS8oCQgG7sD3xJ4Cf/view?usp=sharing',
     desc: 'My Resume',
     summary: 'Download a copy of my Resume here.',
   },
