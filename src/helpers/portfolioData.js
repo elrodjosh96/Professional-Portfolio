@@ -1,5 +1,5 @@
 //add project on top for latest
-import resume from '../images/projectsicon/canvaresume.png';
+import resume from '../images/projectsicon/resumecanva.png';
 import barkr from '../images/projectsicon/barkr.png';
 import flasher from '../images/projectsicon/actualflasherimg.png';
 import techblog from '../images/projectsicon/actualtechblogimg.png';
@@ -11,7 +11,7 @@ import notetaker from '../images/projectsicon/actualnotetakerimg.png'
 const portfolioData = [
   {
     image:  resume,
-    link: 'https://drive.google.com/file/d/10mOw6YA8mQZMo7dv7rbuvdCDsVF8Z-4N/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1Jil9PiFd5rxhmnnXHlYxeJ6ViLue6O1p/view?usp=sharing',
     desc: 'My Resume',
     summary: 'Download a copy of my Resume here.',
   },
