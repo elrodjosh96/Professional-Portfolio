@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Professional-Portfolio/static/css/main.def3833d.chunk.css",
-    "main.js": "/Professional-Portfolio/static/js/main.1306b14a.chunk.js",
-    "main.js.map": "/Professional-Portfolio/static/js/main.1306b14a.chunk.js.map",
+    "main.js": "/Professional-Portfolio/static/js/main.a422ddeb.chunk.js",
+    "main.js.map": "/Professional-Portfolio/static/js/main.a422ddeb.chunk.js.map",
     "runtime-main.js": "/Professional-Portfolio/static/js/runtime-main.9c425764.js",
     "runtime-main.js.map": "/Professional-Portfolio/static/js/runtime-main.9c425764.js.map",
     "static/css/2.4be38407.chunk.css": "/Professional-Portfolio/static/css/2.4be38407.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/actualnotetakerimg.c74b15f8.png": "/Professional-Portfolio/static/media/actualnotetakerimg.c74b15f8.png",
     "static/media/actualpasswordimg.9d2bbf51.png": "/Professional-Portfolio/static/media/actualpasswordimg.9d2bbf51.png",
     "static/media/actualtechblogimg.5f08ff1c.png": "/Professional-Portfolio/static/media/actualtechblogimg.5f08ff1c.png",
-    "static/media/barkr.4371d33f.png": "/Professional-Portfolio/static/media/barkr.4371d33f.png",
+    "static/media/football-quiz.png.6e5db082.jpeg": "/Professional-Portfolio/static/media/football-quiz.png.6e5db082.jpeg",
     "static/media/headshot.921052fb.png": "/Professional-Portfolio/static/media/headshot.921052fb.png",
     "static/media/resumecanva.566c82a5.png": "/Professional-Portfolio/static/media/resumecanva.566c82a5.png"
   },
@@ -27,6 +27,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.fbd3373e.chunk.js",
     "static/css/main.def3833d.chunk.css",
-    "static/js/main.1306b14a.chunk.js"
+    "static/js/main.a422ddeb.chunk.js"
   ]
 }
