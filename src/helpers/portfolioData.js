@@ -1,6 +1,6 @@
 //add project on top for latest
 import resume from '../images/projectsicon/resumecanva.png';
-import barkr from '../images/projectsicon/barkr.png';
+import footballquiz from '../images/projectsicon/football-quiz.png.jpeg';
 import flasher from '../images/projectsicon/actualflasherimg.png';
 import techblog from '../images/projectsicon/actualtechblogimg.png';
 import passwordgen from '../images/projectsicon/actualpasswordimg.png';
@@ -16,11 +16,11 @@ const portfolioData = [
     summary: 'Download a copy of my Resume here.',
   },
   {
-    image:  barkr,
-    link: 'https://spobarkertest.herokuapp.com/welcome',
-    desc: 'BARKr',
-    summary: 'BARKr is a unique app we created for the purpose of assisting dog owners in connecting with other dog owners!',
-    tech: 'React'
+    image:  footballquiz,
+    link: 'https://elrodjosh96.github.io/Football-Quiz/',
+    desc: 'Football Quiz',
+    summary: 'Test your knowledge of football with multiple-choice questions and see how many you can get right!',
+    tech: 'React | JavaScript | HTML | CSS | Vite'
   },
   {
     image:  flasher,
