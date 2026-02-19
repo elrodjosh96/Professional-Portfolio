@@ -1,10 +1,8 @@
 //add project on top for latest
 import resume from '../images/projectsicon/resumecanva.png';
+import dailybread from '../images/projectsicon/Daily-Bread.jpeg';
 import footballquiz from '../images/projectsicon/football-quiz.png.jpeg';
-import flasher from '../images/projectsicon/actualflasherimg.png';
-import techblog from '../images/projectsicon/actualtechblogimg.png';
 import passwordgen from '../images/projectsicon/actualpasswordimg.png';
-import notetaker from '../images/projectsicon/actualnotetakerimg.png'
 
 //add project on top for latest
 
@@ -16,25 +14,18 @@ const portfolioData = [
     summary: 'Download a copy of my Resume here.',
   },
   {
+    image:  dailybread,
+    link: 'https://elrodjosh96.github.io/Daily-Bread/',
+    desc: 'Daily Bread',
+    summary: 'This is a unique app designed to give users a 30-day, 90-day plan for reading the Old Testament and New Testament along with a full year plan for reading the Bible in its entirety.',
+    tech: 'React | JavaScript | HTML | CSS | Vite'
+  },
+  {
     image:  footballquiz,
     link: 'https://elrodjosh96.github.io/Football-Quiz/',
     desc: 'Football Quiz',
     summary: 'Test your knowledge of football with multiple-choice questions and see how many you can get right!',
     tech: 'React | JavaScript | HTML | CSS | Vite'
-  },
-  {
-    image:  flasher,
-    link: 'https://flasherquiz.herokuapp.com/',
-    desc: 'Flasher',
-    summary: 'Flasher is a full-stack web application that serves as a flashcard study companion for Bootcamp students.',
-    tech: 'Node.js | Express.js | MySQL | Sequelize | Tailwind CSS | Anime.js'
-  },
-  {
-    image:  techblog,
-    link: 'https://tech-blog-je.herokuapp.com/',
-    desc: 'Tech Blog',
-    summary: 'This is a forum type app where users can sign-up and create posts about anything tech related and comment on other posts as well!',
-    tech: 'JavaScript | Handlebars | MySQL | Node.js'
   },
   {
     image:  passwordgen,
@@ -43,14 +34,6 @@ const portfolioData = [
     summary: 'This is a unique app designed to give users a safe and secure randomized password.',
     tech: 'HTML | CSS | JaveScript'
   },
-  {
-    image:  notetaker,
-    link: 'https://homeworknotetaker.herokuapp.com/',
-    desc: 'Note Taker',
-    summary: 'This is a unique app designed to allow users to keep important notes with easy access.',
-    tech: 'HTML | CSS | JaveScript | Node.js | Express.js'
-  },
-  
 ]
   
 export default portfolioData;
