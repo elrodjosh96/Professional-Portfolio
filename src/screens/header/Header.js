@@ -14,7 +14,7 @@ function Header() {
             strings={[
               "Full Stack Developer", 
               "Frontend Developer", 
-              "Backend Developer", 
+              "Web Developer", 
               "Software Engineer"
             ]}
             typeSpeed={60}

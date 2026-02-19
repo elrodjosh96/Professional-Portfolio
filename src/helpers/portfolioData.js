@@ -1,5 +1,5 @@
 //add project on top for latest
-import resume from '../images/projectsicon/resumecanva.png';
+import resume from '../images/projectsicon/Resume.png';
 import dailybread from '../images/projectsicon/Daily-Bread.jpeg';
 import footballquiz from '../images/projectsicon/football-quiz.png.jpeg';
 import passwordgen from '../images/projectsicon/actualpasswordimg.png';
@@ -9,7 +9,7 @@ import passwordgen from '../images/projectsicon/actualpasswordimg.png';
 const portfolioData = [
   {
     image:  resume,
-    link: 'https://drive.google.com/file/d/1Jil9PiFd5rxhmnnXHlYxeJ6ViLue6O1p/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1cuT6BPTYlhet9LVigDfI6LMcx8QwZTSZ/view?usp=sharing',
     desc: 'My Resume',
     summary: 'Download a copy of my Resume here.',
   },
