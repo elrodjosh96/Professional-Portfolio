@@ -1,32 +1,132 @@
-.about__container {
-  margin: 3rem 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+.about-section {
+  padding: 6rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: transparent;
 }
 
-.about__container img {
-  border-radius: 50%;
-  border: 0.5px solid rgb(218,218,218);
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.section-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  color: var(--text-primary);
+  font-weight: 700;
+  margin: 0;
+}
+
+.about-content {
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.about-image {
+  flex: 0 0 auto;
+}
+
+.about-image img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 2rem;
+  box-shadow: var(--shadow-lg);
+}
+
+.about-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.about-card {
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  border: 1px solid var(--border-regular);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about-card:hover {
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.2);
+  transform: translateY(-4px);
+  border-color: var(--primary-light);
+}
+
+.about-icon {
+  color: var(--primary-color);
   margin-bottom: 1rem;
 }
 
-
-.about__text {
-  max-width: 600px;
+.about-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
 }
 
-/*  ---------------- MEDIA QUERIES ----------- */
+.about-card p {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin: 0.25rem 0;
+}
 
-@media only screen and (max-width: 900px ){
-  .about__container {
+.about-text {
+  text-align: left;
+}
+
+.about-text p {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+  .about-content {
     flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .about-image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-cards {
+    grid-template-columns: 1fr;
   }
 }
 
-@media only screen and (max-width: 700px ){
-  .about__text {
-    max-width: 300px;
+@media (max-width: 600px) {
+  .about-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .about-image img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-card {
+    padding: 1.5rem;
   }
 }

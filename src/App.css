@@ -1,13 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 .App {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 :root {
-  --nav-color: hsl(210, 11%, 15%);
-  --nav-color-hover: hsl(210, 11%, 45%);
-  --nav-border-color: hsl(210, 11%, 45%);
-  --light-color: hsl(209, 100%, 92%);
-  --font-color: hsl(0, 0%, 100%);
-  --font-color-hover: hsl(0, 0%, 40%);
+  /* Green Color Palette */
+  --primary-color: #10b981;
+  --primary-dark: #059669;
+  --primary-light: #34d399;
+  --accent-color: #6ee7b7;
+  
+  /* Backgrounds */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0fdf4;
+  --bg-alt: #d1fae5;
+  
+  /* Text Colors */
+  --text-primary: #064e3b;
+  --text-secondary: #047857;
+  --text-muted: #6b7280;
+  
+  /* Borders */
+  --border-light: #d1fae5;
+  --border-regular: #a7f3d0;
+  
+  /* UI Elements */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(16, 185, 129, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(16, 185, 129, 0.15);
+  --shadow-xl: 0 20px 25px -5px rgba(16, 185, 129, 0.2);
+  --border-radius: 12px;
+  --transition: all 0.2s ease;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #fafffe 0%, #f7fef9 50%, #f0fdf4 100%);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+section {
+  scroll-margin-top: 80px;
 }

@@ -1,26 +1,103 @@
-.contactMe__container {
-  background-color: var(--nav-color);
-  color: aliceblue;
-  padding: 1rem;
+.contact-section {
+  padding: 6rem 2rem 2rem;
+  background: rgba(236, 253, 245, 0.4);
+  text-align: center;
+  border-radius: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
 }
 
-.contactMe__data__links {
+.contact-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 3rem 0 4rem;
+  flex-wrap: wrap;
 }
 
-.contactMe__data__links a {
-  color: white;
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  border: 2px solid var(--border-light);
+  border-radius: 2rem;
+  transition: var(--transition);
+}
+
+.contact-item:hover {
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.2);
+  transform: translateY(-3px);
+  border-color: var(--primary-color);
+}
+
+.contact-icon {
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.contact-item a {
+  color: var(--text-primary);
   text-decoration: none;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.0625rem;
 }
 
-.contactMe__data__links a:hover {
-  color: var(--light-color);
+.contact-item a:hover {
+  color: var(--primary-color);
 }
 
-@media only screen and (max-width: 600px){
-  .contactMe__data__links {
+.contact-footer {
+  border-top: 1px solid var(--border-light);
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.footer-nav a:hover {
+  color: var(--primary-color);
+}
+
+.copyright {
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .contact-section {
+    padding: 4rem 1.5rem 2rem;
+  }
+
+  .contact-content {
     flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .contact-item {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 1rem;
   }
 }
